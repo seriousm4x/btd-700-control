@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1024 1024">
+  <!-- Generator: Adobe Illustrator 31.0.0, SVG Export Plug-In . SVG Version: 2.1.5 Build 84)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #686d70;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st0, .st5 {
+        opacity: .48;
+      }
+
+      .st6 {
+        fill: url(#Unbenannter_Verlauf);
+      }
+
+      .st7 {
+        stroke-opacity: .3;
+      }
+
+      .st7, .st8, .st9, .st10 {
+        stroke-miterlimit: 4.32;
+        stroke-width: 3.24px;
+      }
+
+      .st7, .st11 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .st8 {
+        fill: url(#Unbenannter_Verlauf_2);
+        stroke: #808b92;
+      }
+
+      .st1 {
+        opacity: .13;
+      }
+
+      .st1, .st2 {
+        fill: #252c32;
+      }
+
+      .st2 {
+        opacity: .1;
+      }
+
+      .st9 {
+        fill: #1a1c1f;
+        stroke: #71787c;
+        stroke-opacity: .24;
+      }
+
+      .st10 {
+        fill: url(#Unbenannter_Verlauf_3);
+        stroke: #626a70;
+        stroke-opacity: .55;
+      }
+
+      .st3 {
+        fill: #1e2023;
+        opacity: .9;
+      }
+
+      .st12 {
+        fill: #9cecb8;
+      }
+
+      .st11 {
+        stroke-opacity: .42;
+        stroke-width: 6px;
+      }
+
+      .st4 {
+        fill: #e5fff0;
+        opacity: .7;
+      }
+
+      .st5 {
+        fill: #6e777c;
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf" data-name="Unbenannter Verlauf" x1="-446.49" y1="1052.97" x2="-445.49" y2="1051.97" gradientTransform="translate(392985 926685) scale(880 -880)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f3f4"/>
+      <stop offset="1" stop-color="#b7c1c9"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_2" data-name="Unbenannter Verlauf 2" x1="-445.07" y1="1053.82" x2="-444.07" y2="1053.82" gradientTransform="translate(-226980.5365 80070.0194) rotate(90) scale(179.28 -216)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#929da5"/>
+      <stop offset=".25" stop-color="#e0e5e8"/>
+      <stop offset=".7" stop-color="#c3ccd1"/>
+      <stop offset="1" stop-color="#89949c"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_3" data-name="Unbenannter Verlauf 3" x1="-446.2" y1="1053.31" x2="-445.2" y2="1053.06" gradientTransform="translate(-453378.6663 173829.6221) rotate(90) scale(388.8 -430.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17191c"/>
+      <stop offset=".32" stop-color="#35383c"/>
+      <stop offset=".68" stop-color="#282b2e"/>
+      <stop offset="1" stop-color="#111316"/>
+    </linearGradient>
+  </defs>
+  <rect class="st6" x="72" y="72" width="880" height="880" rx="210" ry="210"/>
+  <rect class="st11" x="75" y="75" width="874" height="874" rx="207" ry="207"/>
+  <g>
+    <rect class="st2" x="228.78" y="423.61" width="432" height="390.96" rx="47.52" ry="47.52" transform="translate(-311.33 522.16) rotate(-47)"/>
+    <rect class="st1" x="229.72" y="406.77" width="432" height="390.96" rx="47.52" ry="47.52" transform="translate(-298.72 517.49) rotate(-47)"/>
+    <rect class="st8" x="536.58" y="277.18" width="216" height="179.28" rx="17.28" ry="17.28" transform="translate(-63.3 588.07) rotate(-47)"/>
+    <path class="st7" d="M652.58,245.81l-106.8,114.53"/>
+    <path class="st5" d="M521.73,371.88l126.38,117.85-13.26,14.22-126.38-117.85L521.73,371.88Z"/>
+    <rect class="st10" x="234.3" y="381.34" width="430.92" height="388.8" rx="46.44" ry="46.44" transform="translate(-278.05 512.02) rotate(-47)"/>
+    <rect class="st9" x="438.8" y="488.8" width="71.28" height="120.96" rx="2.16" ry="2.16" transform="translate(-250.85 521.65) rotate(-47)"/>
+    <path class="st0" d="M422.69,533.51l66.37-3.08,37.12,34.62-66.37,3.08L422.69,533.51Z"/>
+    <path class="st3" d="M455.1,498.76l29.22,27.25-56.48,1.98L455.1,498.76ZM493.78,599.81l-29.23-27.26,56.48-1.97L493.78,599.81Z"/>
+    <path class="st12" d="M530.02,434.25l55.29,51.56c3.06,2.85,3.22,7.63.37,10.68h0c-2.84,3.06-7.63,3.22-10.68.38l-55.29-51.56c-3.05-2.85-3.22-7.63-.37-10.69h0C522.18,431.57,526.97,431.4,530.02,434.25Z"/>
+    <path class="st4" d="M533.68,440.62l29.23,27.25c.65.61.69,1.63.08,2.29h0c-.61.65-1.64.69-2.29.08l-29.23-27.25c-.65-.61-.69-1.64-.08-2.29h0C532,440.04,533.03,440.01,533.68,440.62Z"/>
+  </g>
+</svg>
