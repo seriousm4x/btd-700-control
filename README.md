@@ -6,9 +6,14 @@ A macOS menu bar app for controlling the Sennheiser BTD 700 USB dongle. View con
 
 - Apple Silicon Mac running macOS 13 or later
 - Sennheiser BTD 700
-- Apple command line developer tools
+
+## Download
+
+Download the app from [GitHub Releases](https://github.com/seriousm4x/btd-700-control/releases).
 
 ## Build and run
+
+Building requires Apple command line developer tools.
 
 ```sh
 git clone https://github.com/seriousm4x/btd-700-control.git

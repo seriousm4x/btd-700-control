@@ -64,6 +64,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             modeViews[mode] = view
         }
         menu.addItem(.separator())
+        let github = NSMenuItem(title: "GitHub ♥︎", action: #selector(openGitHub), keyEquivalent: "")
+        github.target = self
+        menu.addItem(github)
         let quit = NSMenuItem(title: "Quit BTD 700 Control", action: #selector(quit), keyEquivalent: "q")
         quit.target = self
         menu.addItem(quit)
@@ -135,6 +138,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     @objc private func selectModeFromMenu(_ sender: NSMenuItem) {
         guard let mode = AudioMode(rawValue: UInt8(sender.tag)) else { return }
         selectMode(mode)
+    }
+
+    @objc private func openGitHub() {
+        guard let url = URL(string: "https://github.com/seriousm4x/btd-700-control") else { return }
+        NSWorkspace.shared.open(url)
     }
 
     @objc private func quit() {
