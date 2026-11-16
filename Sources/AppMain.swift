@@ -45,7 +45,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
         let menu = NSMenu()
         menu.autoenablesItems = false
-        let heading = NSMenuItem(title: "BTD 700 Control", action: nil, keyEquivalent: "")
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "unknown"
+        let heading = NSMenuItem(title: "BTD 700 Control \(version)", action: nil, keyEquivalent: "")
         heading.isEnabled = false
         menu.addItem(heading)
         for item in [stateItem, activeItem, codecItem, preferredItem] {
