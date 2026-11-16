@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set app version
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          VERSION="${BASH_REMATCH[1]}"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $VERSION" Info.plist
+          /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $VERSION" Info.plist
+
+      - name: Run tests
+        run: sh ./test.sh
+
+      - name: Build app
+        run: sh ./build-app.sh
+
+      - name: Package app
+        run: ditto -c -k --sequesterRsrc --keepParent "build/BTD 700 Control.app" "build/BTD-700-Control.zip"
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          args=(--verify-tag --generate-notes)
+          if [[ "$TAG" == *-* ]]; then
+            args+=(--prerelease)
+          fi
+          gh release create "$TAG" "build/BTD-700-Control.zip" "${args[@]}"
