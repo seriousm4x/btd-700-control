@@ -2,6 +2,8 @@
 
 A macOS menu bar app for controlling the Sennheiser BTD 700 USB dongle. View connection status, active mode, and codec, and switch between High Quality, Gaming / Low Latency, and Auracast Broadcast.
 
+![](./assets/screenshot.jpeg)
+
 ## Requirements
 
 - Apple Silicon Mac running macOS 13 or later
